@@ -3,5 +3,5 @@
 container:
   image: vandan2402/myk8sapp:v1
 
-replicaCount: 4
+replicaCount: 2
 
