@@ -10,12 +10,9 @@ spec:
     name     : in-cluster
     namespace: app2
   source:
-    path   : "HelmCharts/MyChart2"
+    path   : "HelmCharts/MyChart1"
     repoURL: "git@github.com:VanDirBan/argocd.git"
     targetRevision: HEAD
-    helm:
-      valueFiles:
-      - values_dev.yaml
 
   project: default
   syncPolicy:
