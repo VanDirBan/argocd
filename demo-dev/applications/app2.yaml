@@ -13,6 +13,9 @@ spec:
     path   : "HelmCharts/MyChart1"
     repoURL: "git@github.com:VanDirBan/argocd.git"
     targetRevision: HEAD
+    helm:
+      valueFiles:
+      - values_prod.yaml
 
   project: default
   syncPolicy:
